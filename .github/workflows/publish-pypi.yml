@@ -20,6 +20,7 @@ jobs:
     name: Publish to PyPI
     runs-on: ubuntu-latest
     environment: pypi-push
+    needs: ci-build-python
     defaults:
       run:
         working-directory: ./_packages/python
