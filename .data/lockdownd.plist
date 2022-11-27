@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clients</key>
+	<array>
+		<string>AMPDeviceDiscoveryAgent</string>
+		<string>Safari</string>
+		<string>SpringBoard</string>
+		<string>accountsd</string>
+		<string>atwakeup</string>
+		<string>backupd</string>
+	</array>
+	<key>lockdownd_domains</key>
+	<dict>
+		<key>com.apple.Accessibility</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+			<array>
+				<string>ClosedCaptioningEnabledByiTunes</string>
+				<string>InvertDisplayEnabledByiTunes</string>
+				<string>MonoAudioEnabledByiTunes</string>
+				<string>SpeakAutoCorrectionsEnabledByiTunes</string>
+				<string>VoiceOverTouchEnabledByiTunes</string>
+				<string>ZoomTouchEnabledByiTunes</string>
+			</array>
+		</dict>
+		<key>com.apple.MobileDeviceCrashCopy</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+		</dict>
+		<key>com.apple.TerminalFlashr</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+		</dict>
+		<key>com.apple.mobile.backup</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+			<array>
+				<string>CloudBackupEnabled</string>
+				<string>LastCloudBackupDate</string>
+				<string>LastCloudBackupTZ</string>
+				<string>WillEncrypt</string>
+			</array>
+		</dict>
+		<key>com.apple.mobile.data_sync</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+		</dict>
+		<key>com.apple.mobile.iTunes</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+		</dict>
+		<key>com.apple.mobile.iTunes.accessories</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+		</dict>
+		<key>com.apple.mobile.restriction</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+			<array>
+				<string>ClosedCaptioningEnabledByiTunes</string>
+				<string>CloudBackupEnabled</string>
+				<string>DeveloperStatus</string>
+				<string>EnableWifiConnections</string>
+				<string>EnableWifiDebugging</string>
+				<string>InvertDisplayEnabledByiTunes</string>
+				<string>LastCloudBackupDate</string>
+				<string>LastCloudBackupTZ</string>
+				<string>MonoAudioEnabledByiTunes</string>
+				<string>Notes</string>
+				<string>ProhibitAppDelete</string>
+				<string>ProhibitAppInstall</string>
+				<string>RestoreState</string>
+				<string>SetupState</string>
+				<string>SpeakAutoCorrectionsEnabledByiTunes</string>
+				<string>VoiceOverTouchEnabledByiTunes</string>
+				<string>WillEncrypt</string>
+				<string>ZoomTouchEnabledByiTunes</string>
+			</array>
+		</dict>
+		<key>com.apple.mobile.tethered_sync</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+			<array>
+				<string>Notes</string>
+			</array>
+		</dict>
+		<key>com.apple.mobile.wireless_lockdown</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+			<array>
+				<string>EnableWifiConnections</string>
+				<string>EnableWifiDebugging</string>
+			</array>
+		</dict>
+		<key>com.apple.purplebuddy</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+			<array>
+				<string>RestoreState</string>
+				<string>SetupState</string>
+			</array>
+		</dict>
+		<key>com.apple.xcode.developerdomain</key>
+		<dict>
+			<key>description</key>
+<!-- The <data> element below contains a Ruby object which has been serialized with Marshal.dump. -->
+			<data>
+			BAgw
+			</data>
+			<key>properties</key>
+			<array>
+				<string>DeveloperStatus</string>
+			</array>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>credits</key>
+		<array>
+			<string>rickmark</string>
+		</array>
+		<key>description</key>
+		<string>Services that can be contacted over usbmuxd via lockdownd</string>
+	</dict>
+</dict>
+</plist>

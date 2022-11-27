@@ -1,0 +1,1181 @@
+bootrom_exploits = ["alloc8","checkm8"]
+[chip_ids.24576]
+architecture = "armv8.4"
+description = "M1 Pro"
+name = "t6000"
+os = ["macOS"]
+[chip_ids.24576.boards.8]
+board_name = "J314sAP"
+product_id = "MacBookPro18,3"
+product_name = "MacBook Pro (M1 Pro, 14-inch, 2021)"
+[chip_ids.24576.boards.10]
+board_name = "J316sAP"
+product_id = "MacBookPro18,1"
+product_name = "MacBook Pro (M1 Pro, 16-inch, 2021)"
+[chip_ids.24576.capabilities]
+address_sizes = [64]
+hypervisor = true
+pointer_authentication = true
+[chip_ids.24576.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.24577]
+architecture = "armv8.4"
+description = "M1 Max"
+name = "t6001"
+os = ["macOS"]
+[chip_ids.24577.boards.4]
+board_name = "J375cAP"
+product_id = "Mac13,1"
+product_name = "Mac Studio (M1 Max)"
+[chip_ids.24577.boards.8]
+board_name = "J314cAP"
+product_id = "MacBookPro18,4"
+product_name = "MacBook Pro (M1 Max, 14-inch, 2021)"
+[chip_ids.24577.boards.10]
+board_name = "J316cAP"
+product_id = "MacBookPro18,2"
+product_name = "MacBook Pro (M1 Max, 16-inch, 2021)"
+[chip_ids.24577.capabilities]
+address_sizes = [64]
+hypervisor = true
+pointer_authentication = true
+[chip_ids.24577.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.24578]
+architecture = "arm64"
+description = "M1 Ultra"
+name = "t6002"
+[chip_ids.24578.boards.12]
+board_name = "J375dAP"
+product_id = "Mac13,2"
+product_name = "Mac Studio (M1 Ultra)"
+[chip_ids.24578.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.28672]
+architecture = "arm64"
+description = "A8"
+name = "t7000"
+[chip_ids.28672.boards.4]
+board_name = "N56AP"
+product_id = "iPhone7,1"
+product_name = "iPhone 6 Plus"
+[chip_ids.28672.boards.6]
+board_name = "N61AP"
+product_id = "iPhone7,2"
+product_name = "iPhone 6"
+[chip_ids.28672.boards.8]
+board_name = "J96AP"
+product_id = "iPad5,1"
+product_name = "iPad mini 4 (WiFi)"
+[chip_ids.28672.boards.10]
+board_name = "J97AP"
+product_id = "iPad5,2"
+product_name = "iPad mini 4 (Cellular)"
+[chip_ids.28672.boards.16]
+board_name = "N102AP"
+product_id = "iPod7,1"
+product_name = "iPod Touch (6th gen)"
+[chip_ids.28672.boards.26]
+board_name = "B238AP"
+product_id = "AudioAccessory1,2"
+product_name = "HomePod"
+[chip_ids.28672.boards.52]
+board_name = "J42dAP"
+product_id = "AppleTV5,3"
+product_name = "Apple TV 4"
+[chip_ids.28672.boards.56]
+board_name = "B238aAP"
+product_id = "AudioAccessory1,1"
+product_name = "HomePod"
+[chip_ids.28672.revisions.17]
+security_epoch = 1
+sha1 = "c4dcd22ae135c14244fc2b62165c85effa566bfe"
+sha256 = "4490b852a94c16024ba853d8f2dc41c0345e344c8b70f33d1051097bf9fd842f"
+version = "iBoot-1992.0.0.1.19"
+[chip_ids.28672.securerom.memory_layout]
+dfu_image = 6446120960
+dfu_load = 6442450944
+dram_base = 34359738368
+recovery_image = 35391500288
+recovery_load = 34359738368
+rom_base = 4294967296
+rom_size = 524288
+sram_base = 6442450944
+sram_size = 4194304
+[chip_ids.28672.securerom.nonce]
+ap_length = 20
+sep_length = 20
+[chip_ids.28672.securerom.registers]
+demotion = 8824987648
+[chip_ids.28672.securerom.symbols]
+payload_destination = 6443371520
+payload_pointer = 6443010168
+trampoline = 6443237376
+usb_create_string_descriptor = 4295024756
+usb_descriptors = 6443009888
+usb_serial_number = 6443010248
+usb_srnm_string_descriptor = 6442976810
+[chip_ids.28673]
+architecture = "arm64"
+description = "A8X"
+name = "t7001"
+[chip_ids.28673.boards.2]
+board_name = "J82AP"
+product_id = "iPad5,4"
+product_name = "iPad Air 2 (Cellular)"
+[chip_ids.28673.boards.6]
+board_name = "J81AP"
+product_id = "iPad5,3"
+product_name = "iPad Air 2 (WiFi)"
+[chip_ids.28673.revisions.1]
+security_epoch = 1
+sha1 = "4c17f3566ea2db554d8cd43fa333fa9de15ab0a3"
+version = "iBoot-1991.0.0.2.16"
+[chip_ids.28673.securerom]
+
+[chip_ids.28673.securerom.memory_layout]
+dram_base = 34359738368
+dram_size = 4194304
+rom_base = 4294967296
+rom_size = 524288
+sram_base = 6442450944
+sram_size = 4194304
+[chip_ids.28673.securerom.nonce]
+ap_length = 20
+sep_length = 20
+[chip_ids.28673.securerom.symbols]
+payload_destination = 6443371520
+payload_pointer = 6443011576
+usb_create_string_descriptor = 4295037044
+usb_descriptors = 6443011296
+usb_serial_number = 6443011656
+usb_srnm_string_descriptor = 6442978346
+[chip_ids.28674]
+description = "S1"
+name = "s7002"
+[chip_ids.28674.boards.2]
+board_name = "N27aAP"
+product_id = "Watch1,1"
+product_name = "Apple Watch 38mm (1st gen)"
+[chip_ids.28674.boards.4]
+board_name = "N28aAP"
+product_id = "Watch1,2"
+product_name = "Apple Watch 42mm (1st gen)"
+[chip_ids.28674.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32768]
+description = "A9"
+name = "s8000"
+[chip_ids.32768.boards.2]
+board_name = "N69uAP"
+product_id = "iPhone8,4"
+product_name = "iPhone SE"
+[chip_ids.32768.boards.4]
+board_name = "N71AP"
+product_id = "iPhone8,1"
+product_name = "iPhone 6s"
+[chip_ids.32768.boards.6]
+board_name = "N66AP"
+product_id = "iPhone8,2"
+product_name = "iPhone 6s Plus"
+[chip_ids.32768.boards.16]
+board_name = "J71sAP"
+product_id = "iPad6,11"
+product_name = "iPad (5th gen, WiFi)"
+[chip_ids.32768.boards.18]
+board_name = "J72sAP"
+product_id = "iPad6,12"
+product_name = "iPad (5th gen, Cellular)"
+[chip_ids.32768.revisions.1]
+security_epoch = 1
+sha1 = "9979dce30e913c888cf77234c7a7e2a7fa676f4c"
+version = "iBoot-2234.0.0.3.3"
+[chip_ids.32769]
+description = "A9X"
+name = "s8001"
+[chip_ids.32769.boards.8]
+board_name = "J127AP"
+product_id = "iPad6,3"
+product_name = "iPad Pro 9.7-inch (WiFi)"
+[chip_ids.32769.boards.10]
+board_name = "J128AP"
+product_id = "iPad6,4"
+product_name = "iPad Pro 9.7-inch (Cellular)"
+[chip_ids.32769.boards.16]
+board_name = "J98aAP"
+product_id = "iPad6,7"
+product_name = "iPad Pro 12.9-inch (1st gen, WiFi)"
+[chip_ids.32769.boards.18]
+board_name = "J99aAP"
+product_id = "iPad6,8"
+product_name = "iPad Pro 12.9-inch (1st gen, Cellular)"
+[chip_ids.32769.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32770]
+description = "S2"
+name = "t8002"
+[chip_ids.32770.boards.2]
+board_name = "N27dAP"
+product_id = "Watch2,6"
+product_name = "Apple Watch Series 1 (38mm)"
+[chip_ids.32770.boards.4]
+board_name = "N28dAP"
+product_id = "Watch2,7"
+product_name = "Apple Watch Series 1 (42mm)"
+[chip_ids.32770.boards.12]
+board_name = "N74AP"
+product_id = "Watch2,3"
+product_name = "Apple Watch Series 2 (38mm)"
+[chip_ids.32770.boards.14]
+board_name = "N75AP"
+product_id = "Watch2,4"
+product_name = "Apple Watch Series 2 (42mm)"
+[chip_ids.32770.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32771]
+description = "A9"
+name = "s8003"
+[chip_ids.32771.boards.2]
+board_name = "N69AP"
+product_id = "iPhone8,4"
+product_name = "iPhone SE"
+[chip_ids.32771.boards.4]
+board_name = "N71mAP"
+product_id = "iPhone8,1"
+product_name = "iPhone 6s"
+[chip_ids.32771.boards.6]
+board_name = "N66mAP"
+product_id = "iPhone8,2"
+product_name = "iPhone 6s Plus"
+[chip_ids.32771.boards.16]
+board_name = "J71tAP"
+product_id = "iPad6,11"
+product_name = "iPad (5th gen, WiFi)"
+[chip_ids.32771.boards.18]
+board_name = "J72tAP"
+product_id = "iPad6,12"
+product_name = "iPad (5th gen, Cellular)"
+[chip_ids.32771.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32772]
+description = "S3"
+name = "t8004"
+[chip_ids.32772.boards.24]
+board_name = "N121sAP"
+product_id = "Watch3,3"
+product_name = "Apple Watch Series 3 (38mm)"
+[chip_ids.32772.boards.26]
+board_name = "N121bAP"
+product_id = "Watch3,4"
+product_name = "Apple Watch Series 3 (42mm)"
+[chip_ids.32772.boards.28]
+board_name = "N111sAP"
+product_id = "Watch3,1"
+product_name = "Apple Watch Series 3 (38mm Cellular)"
+[chip_ids.32772.boards.30]
+board_name = "N111bAP"
+product_id = "Watch3,2"
+product_name = "Apple Watch Series 3 (42mm Cellular)"
+[chip_ids.32772.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32774]
+description = "S4"
+name = "t8006"
+[chip_ids.32774.boards.8]
+board_name = "N131sAP"
+product_id = "Watch4,1"
+product_name = "Apple Watch Series 4 (40mm)"
+[chip_ids.32774.boards.10]
+board_name = "N131bAP"
+product_id = "Watch4,2"
+product_name = "Apple Watch Series 4 (44mm)"
+[chip_ids.32774.boards.12]
+board_name = "N141sAP"
+product_id = "Watch4,3"
+product_name = "Apple Watch Series 4 (40mm Cellular)"
+[chip_ids.32774.boards.14]
+board_name = "N141bAP"
+product_id = "Watch4,4"
+product_name = "Apple Watch Series 4 (44mm Cellular)"
+[chip_ids.32774.boards.16]
+board_name = "N144sAP"
+product_id = "Watch5,1"
+product_name = "Apple Watch Series 5 (40mm)"
+[chip_ids.32774.boards.18]
+board_name = "N144bAP"
+product_id = "Watch5,2"
+product_name = "Apple Watch Series 5 (44mm)"
+[chip_ids.32774.boards.20]
+board_name = "N146sAP"
+product_id = "Watch5,3"
+product_name = "Apple Watch Series 5 (40mm Cellular)"
+[chip_ids.32774.boards.22]
+board_name = "N146bAP"
+product_id = "Watch5,4"
+product_name = "Apple Watch Series 5 (44mm Cellular)"
+[chip_ids.32774.boards.34]
+board_name = "B520AP"
+product_id = "AudioAccessory5,1"
+product_name = "HomePod mini"
+[chip_ids.32774.boards.40]
+board_name = "N140sAP"
+product_id = "Watch5,9"
+product_name = "Apple Watch SE (40mm)"
+[chip_ids.32774.boards.42]
+board_name = "N140bAP"
+product_id = "Watch5,10"
+product_name = "Apple Watch SE (44mm)"
+[chip_ids.32774.boards.44]
+board_name = "N142sAP"
+product_id = "Watch5,11"
+product_name = "Apple Watch SE (40mm Cellular)"
+[chip_ids.32774.boards.46]
+board_name = "N142bAP"
+product_id = "Watch5,12"
+product_name = "Apple Watch SE (44mm Cellular)"
+[chip_ids.32774.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32784]
+description = "A10"
+name = "t8010"
+[chip_ids.32784.boards.8]
+board_name = "D10AP"
+product_id = "iPhone9,1"
+product_name = "iPhone 7 (Global)"
+[chip_ids.32784.boards.10]
+board_name = "D11AP"
+product_id = "iPhone9,2"
+product_name = "iPhone 7 Plus (Global)"
+[chip_ids.32784.boards.12]
+board_name = "D101AP"
+product_id = "iPhone9,3"
+product_name = "iPhone 7 (GSM)"
+[chip_ids.32784.boards.14]
+board_name = "D111AP"
+product_id = "iPhone9,4"
+product_name = "iPhone 7 Plus (GSM)"
+[chip_ids.32784.boards.22]
+board_name = "N112AP"
+product_id = "iPod9,1"
+product_name = "iPod Touch (7th gen)"
+[chip_ids.32784.boards.24]
+board_name = "J71bAP"
+product_id = "iPad7,5"
+product_name = "iPad (6th gen, WiFi)"
+[chip_ids.32784.boards.26]
+board_name = "J72bAP"
+product_id = "iPad7,6"
+product_name = "iPad (6th gen, Cellular)"
+[chip_ids.32784.boards.28]
+board_name = "J171AP"
+product_id = "iPad7,11"
+product_name = "iPad (7th gen, WiFi)"
+[chip_ids.32784.boards.30]
+board_name = "J172AP"
+product_id = "iPad7,12"
+product_name = "iPad (7th gen, Cellular)"
+[chip_ids.32784.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32785]
+description = "A10X"
+name = "t8011"
+[chip_ids.32785.boards.2]
+board_name = "J105aAP"
+product_id = "AppleTV6,2"
+product_name = "Apple TV 4K"
+[chip_ids.32785.boards.4]
+board_name = "J207AP"
+product_id = "iPad7,3"
+product_name = "iPad Pro 10.5-inch (WiFi)"
+[chip_ids.32785.boards.6]
+board_name = "J208AP"
+product_id = "iPad7,4"
+product_name = "iPad Pro 10.5-inch (Cellular)"
+[chip_ids.32785.boards.12]
+board_name = "J120AP"
+product_id = "iPad7,1"
+product_name = "iPad Pro 12.9-inch (2nd gen, WiFi)"
+[chip_ids.32785.boards.14]
+board_name = "J121AP"
+product_id = "iPad7,2"
+product_name = "iPad Pro 12.9-inch (2nd gen, Cellular)"
+[chip_ids.32785.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32786]
+architecture = "arm64"
+description = "T2"
+name = "t8012"
+vulnerable_to = ["checkm8"]
+[chip_ids.32786.boards.7]
+board_name = "J780AP"
+product_id = "iBridge2,7"
+product_name = "Apple T2 MacBookPro15,3 (j780)"
+[chip_ids.32786.boards.10]
+board_name = "J137AP"
+product_id = "iBridge2,1"
+product_name = "Apple T2 iMacPro1,1 (j137)"
+[chip_ids.32786.boards.11]
+board_name = "J680AP"
+product_id = "iBridge2,3"
+product_name = "Apple T2 MacBookPro15,1 (j680)"
+[chip_ids.32786.boards.12]
+board_name = "J132AP"
+product_id = "iBridge2,4"
+product_name = "Apple T2 MacBookPro15,2 (j132)"
+[chip_ids.32786.boards.14]
+board_name = "J174AP"
+product_id = "iBridge2,5"
+product_name = "Apple T2 Macmini8,1 (j174)"
+[chip_ids.32786.boards.15]
+board_name = "J160AP"
+product_id = "iBridge2,6"
+product_name = "Apple T2 MacPro7,1 (j160)"
+[chip_ids.32786.boards.23]
+board_name = "J140KAP"
+product_id = "iBridge2,8"
+product_name = "Apple T2 MacBookAir8,1 (j140k)"
+[chip_ids.32786.boards.24]
+board_name = "J213AP"
+product_id = "iBridge2,10"
+product_name = "Apple T2 MacBookPro15,4 (j213)"
+[chip_ids.32786.boards.34]
+board_name = "J185AP"
+product_id = "iBridge2,19"
+product_name = "Apple T2 iMac20,1 (j185)"
+[chip_ids.32786.boards.35]
+board_name = "J185FAP"
+product_id = "iBridge2,20"
+product_name = "Apple T2 iMac20,2 (j185f)"
+[chip_ids.32786.boards.55]
+board_name = "J140AAP"
+product_id = "iBridge2,12"
+product_name = "Apple T2 MacBookAir8,2 (j140a)"
+[chip_ids.32786.boards.56]
+board_name = "J215AP"
+product_id = "iBridge2,22"
+product_name = "Apple T2 MacBookPro16,4 (j215)"
+[chip_ids.32786.boards.58]
+board_name = "J152FAP"
+product_id = "iBridge2,14"
+product_name = "Apple T2 MacBookPro16,1 (j152f)"
+[chip_ids.32786.boards.59]
+board_name = "J223AP"
+product_id = "iBridge2,21"
+product_name = "Apple T2 MacBookPro16,3 (j223)"
+[chip_ids.32786.boards.62]
+board_name = "J214KAP"
+product_id = "iBridge2,16"
+product_name = "Apple T2 MacBookPro16,2 (j214k)"
+[chip_ids.32786.boards.63]
+board_name = "J230KAP"
+product_id = "iBridge2,15"
+product_name = "Apple T2 MacBookAir9,1 (j230k)"
+[chip_ids.32786.revisions.1]
+ap_rom_url = "http://securerom.fun/resources/APROM/SecureROM%20for%20t8012si,%20iBoot-3401.0.0.1.16"
+security_epoch = 1
+version = "iBoot-3401.0.0.1.16"
+[chip_ids.32789]
+description = "A12"
+name = "t8015"
+[chip_ids.32789.boards.2]
+board_name = "D20AP"
+product_id = "iPhone10,1"
+product_name = "iPhone 8 (Global)"
+[chip_ids.32789.boards.4]
+board_name = "D21AP"
+product_id = "iPhone10,2"
+product_name = "iPhone 8 Plus (Global)"
+[chip_ids.32789.boards.6]
+board_name = "D22AP"
+product_id = "iPhone10,3"
+product_name = "iPhone X (Global)"
+[chip_ids.32789.boards.10]
+board_name = "D201AP"
+product_id = "iPhone10,4"
+product_name = "iPhone 8 (GSM)"
+[chip_ids.32789.boards.12]
+board_name = "D211AP"
+product_id = "iPhone10,5"
+product_name = "iPhone 8 Plus (GSM)"
+[chip_ids.32789.boards.14]
+board_name = "D221AP"
+product_id = "iPhone10,6"
+product_name = "iPhone X (GSM)"
+[chip_ids.32789.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32800]
+description = "A13"
+name = "t8020"
+[chip_ids.32800.boards.8]
+board_name = "J305AP"
+product_id = "AppleTV11,1"
+product_name = "Apple TV 4K (2nd gen)"
+[chip_ids.32800.boards.10]
+board_name = "D331AP"
+product_id = "iPhone11,4"
+product_name = "iPhone XS Max (China)"
+[chip_ids.32800.boards.12]
+board_name = "N841AP"
+product_id = "iPhone11,8"
+product_name = "iPhone XR"
+[chip_ids.32800.boards.14]
+board_name = "D321AP"
+product_id = "iPhone11,2"
+product_name = "iPhone XS"
+[chip_ids.32800.boards.20]
+board_name = "J210AP"
+product_id = "iPad11,1"
+product_name = "iPad mini (5th gen, WiFi)"
+[chip_ids.32800.boards.22]
+board_name = "J211AP"
+product_id = "iPad11,2"
+product_name = "iPad mini (5th gen, Cellular)"
+[chip_ids.32800.boards.26]
+board_name = "D331pAP"
+product_id = "iPhone11,6"
+product_name = "iPhone XS Max"
+[chip_ids.32800.boards.28]
+board_name = "J217AP"
+product_id = "iPad11,3"
+product_name = "iPad Air (3rd gen, WiFi)"
+[chip_ids.32800.boards.30]
+board_name = "J218AP"
+product_id = "iPad11,4"
+product_name = "iPad Air (3rd gen, Cellular)"
+[chip_ids.32800.boards.36]
+board_name = "J171aAP"
+product_id = "iPad11,6"
+product_name = "iPad (8th gen, WiFi)"
+[chip_ids.32800.boards.38]
+board_name = "J172aAP"
+product_id = "iPad11,7"
+product_name = "iPad (8th gen, Cellular)"
+[chip_ids.32800.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32807]
+description = "A14X/Z"
+name = "t8027"
+[chip_ids.32807.boards.8]
+board_name = "J320AP"
+product_id = "iPad8,5"
+product_name = "iPad Pro 12.9-inch (3rd gen, WiFi)"
+[chip_ids.32807.boards.10]
+board_name = "J321AP"
+product_id = "iPad8,7"
+product_name = "iPad Pro 12.9-inch (3rd gen, Cellular)"
+[chip_ids.32807.boards.12]
+board_name = "J317AP"
+product_id = "iPad8,1"
+product_name = "iPad Pro 11-inch (1st gen, WiFi)"
+[chip_ids.32807.boards.14]
+board_name = "J318AP"
+product_id = "iPad8,3"
+product_name = "iPad Pro 11-inch (1st gen, Cellular)"
+[chip_ids.32807.boards.24]
+board_name = "J320xAP"
+product_id = "iPad8,6"
+product_name = "iPad Pro 12.9-inch (3rd gen, WiFi, 1TB)"
+[chip_ids.32807.boards.26]
+board_name = "J321xAP"
+product_id = "iPad8,8"
+product_name = "iPad Pro 12.9-inch (3rd gen, Cellular, 1TB)"
+[chip_ids.32807.boards.28]
+board_name = "J317xAP"
+product_id = "iPad8,2"
+product_name = "iPad Pro 11-inch (1st gen, WiFi, 1TB)"
+[chip_ids.32807.boards.30]
+board_name = "J318xAP"
+product_id = "iPad8,4"
+product_name = "iPad Pro 11-inch (1st gen, Cellular, 1TB)"
+[chip_ids.32807.boards.56]
+board_name = "J420AP"
+product_id = "iPad8,11"
+product_name = "iPad Pro 12.9-inch (4th gen, WiFi)"
+[chip_ids.32807.boards.58]
+board_name = "J421AP"
+product_id = "iPad8,12"
+product_name = "iPad Pro 12.9-inch (4th gen, Cellular)"
+[chip_ids.32807.boards.60]
+board_name = "J417AP"
+product_id = "iPad8,9"
+product_name = "iPad Pro 11-inch (2nd gen, WiFi)"
+[chip_ids.32807.boards.62]
+board_name = "J418AP"
+product_id = "iPad8,10"
+product_name = "iPad Pro 11-inch (2nd gen, Cellular)"
+[chip_ids.32807.boards.66]
+board_name = "J273aAP"
+product_id = "ADP3,2"
+product_name = "Developer Transition Kit (2020)"
+[chip_ids.32807.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.32816]
+architecture = "arm8"
+description = "A13"
+name = "t8030"
+[chip_ids.32816.boards.2]
+board_name = "D431AP"
+product_id = "iPhone12,5"
+product_name = "iPhone 11 Pro Max"
+[chip_ids.32816.boards.4]
+board_name = "N104AP"
+product_id = "iPhone12,1"
+product_name = "iPhone 11"
+[chip_ids.32816.boards.6]
+board_name = "D421AP"
+product_id = "iPhone12,3"
+product_name = "iPhone 11 Pro"
+[chip_ids.32816.boards.16]
+board_name = "D79AP"
+product_id = "iPhone12,8"
+product_name = "iPhone SE (2020)"
+[chip_ids.32816.boards.24]
+board_name = "J181AP"
+product_id = "iPad12,1"
+product_name = "iPad (9th gen, WiFi)"
+[chip_ids.32816.boards.26]
+board_name = "J182AP"
+product_id = "iPad12,2"
+product_name = "iPad (9th gen, Cellular)"
+[chip_ids.32816.boards.34]
+board_name = "J327AP"
+product_id = "AppleDisplay2,1"
+product_name = "Apple Studio Display"
+[chip_ids.32816.capabilities]
+address_sizes = [64]
+pointer_authentication = true
+[chip_ids.32816.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.33025]
+architecture = "arm8"
+description = "A14"
+name = "t8101"
+[chip_ids.33025.boards.4]
+board_name = "J307AP"
+product_id = "iPad13,1"
+product_name = "iPad Air (4th gen, WiFi)"
+[chip_ids.33025.boards.6]
+board_name = "J308AP"
+product_id = "iPad13,2"
+product_name = "iPad Air (4th gen, Cellular)"
+[chip_ids.33025.boards.8]
+board_name = "D54pAP"
+product_id = "iPhone13,4"
+product_name = "iPhone 12 Pro Max"
+[chip_ids.33025.boards.10]
+board_name = "D52gAP"
+product_id = "iPhone13,1"
+product_name = "iPhone 12 mini"
+[chip_ids.33025.boards.12]
+board_name = "D53gAP"
+product_id = "iPhone13,2"
+product_name = "iPhone 12"
+[chip_ids.33025.boards.14]
+board_name = "D53pAP"
+product_id = "iPhone13,3"
+product_name = "iPhone 12 Pro"
+[chip_ids.33025.capabilities]
+address_sizes = [64]
+hypervisor = true
+pointer_authentication = true
+[chip_ids.33025.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.33027]
+architecture = "armv8.4"
+description = "M1"
+name = "t8103"
+os = ["macOS","padOS"]
+[chip_ids.33027.boards.8]
+board_name = "J517AP"
+product_id = "iPad13,4"
+product_name = "iPad Pro 11-inch (3rd gen, WiFi)"
+[chip_ids.33027.boards.10]
+board_name = "J517xAP"
+product_id = "iPad13,5"
+product_name = "iPad Pro 11-inch (3rd gen, WiFi, 2TB)"
+[chip_ids.33027.boards.12]
+board_name = "J518AP"
+product_id = "iPad13,6"
+product_name = "iPad Pro 11-inch (3rd gen, Cellular)"
+[chip_ids.33027.boards.14]
+board_name = "J518xAP"
+product_id = "iPad13,7"
+product_name = "iPad Pro 11-inch (3rd gen, Cellular, 2TB)"
+[chip_ids.33027.boards.16]
+board_name = "J407AP"
+product_id = "iPad13,16"
+product_name = "iPad Air (5th gen, WiFi)"
+[chip_ids.33027.boards.18]
+board_name = "J408AP"
+product_id = "iPad13,17"
+product_name = "iPad Air (5th gen, Cellular)"
+[chip_ids.33027.boards.24]
+board_name = "J522AP"
+product_id = "iPad13,8"
+product_name = "iPad Pro 12.9-inch (5th gen, WiFi)"
+[chip_ids.33027.boards.26]
+board_name = "J522xAP"
+product_id = "iPad13,9"
+product_name = "iPad Pro 12.9-inch (5th gen, WiFi, 2TB)"
+[chip_ids.33027.boards.28]
+board_name = "J523AP"
+product_id = "iPad13,10"
+product_name = "iPad Pro 12.9-inch (5th gen, Cellular)"
+[chip_ids.33027.boards.30]
+board_name = "J523xAP"
+product_id = "iPad13,11"
+product_name = "iPad Pro 12.9-inch (5th gen, Cellular, 2TB)"
+[chip_ids.33027.boards.34]
+board_name = "J274AP"
+product_id = "Macmini9,1"
+product_name = "Mac mini (M1, 2020)"
+[chip_ids.33027.boards.36]
+board_name = "J293AP"
+product_id = "MacBookPro17,1"
+product_name = "MacBook Pro (M1, 2020)"
+[chip_ids.33027.boards.38]
+board_name = "J313AP"
+product_id = "MacBookAir10,1"
+product_name = "MacBook Air (M1, 2020)"
+[chip_ids.33027.boards.40]
+board_name = "J456AP"
+product_id = "iMac21,1"
+product_name = "iMac 24-inch (M1, Two Ports, 2021)"
+[chip_ids.33027.boards.42]
+board_name = "J457AP"
+product_id = "iMac21,2"
+product_name = "iMac 24-inch (M1, Four Ports, 2021)"
+[chip_ids.33027.capabilities]
+64bit = true
+el2 = true
+pointer_authentication = true
+[chip_ids.33027.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.33040]
+description = "A15"
+name = "t8110"
+[chip_ids.33040.boards.4]
+board_name = "J310AP"
+product_id = "iPad14,1"
+product_name = "iPad mini (6th gen, WiFi)"
+[chip_ids.33040.boards.6]
+board_name = "J311AP"
+product_id = "iPad14,2"
+product_name = "iPad mini (6th gen, Cellular)"
+[chip_ids.33040.boards.8]
+board_name = "D16AP"
+product_id = "iPhone14,4"
+product_name = "iPhone 13 mini"
+[chip_ids.33040.boards.10]
+board_name = "D17AP"
+product_id = "iPhone14,5"
+product_name = "iPhone 13"
+[chip_ids.33040.boards.12]
+board_name = "D63AP"
+product_id = "iPhone14,2"
+product_name = "iPhone 13 Pro"
+[chip_ids.33040.boards.14]
+board_name = "D64AP"
+product_id = "iPhone14,3"
+product_name = "iPhone 13 Pro Max"
+[chip_ids.33040.boards.16]
+board_name = "D49AP"
+product_id = "iPhone14,6"
+product_name = "iPhone SE (3rd gen)"
+[chip_ids.33040.boards.24]
+board_name = "D27AP"
+product_id = "iPhone14,7"
+product_name = "iPhone 14"
+[chip_ids.33040.boards.26]
+board_name = "D28AP"
+product_id = "iPhone14,8"
+product_name = "iPhone 14 Plus"
+[chip_ids.33040.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.33042]
+architecture = "armv8.4"
+description = "M2"
+name = "t8112"
+os = ["macOS"]
+[chip_ids.33042.boards.40]
+board_name = "J413AP"
+product_id = "Mac14,2"
+product_name = "MacBook Air (M2, 2022)"
+[chip_ids.33042.boards.42]
+board_name = "J493AP"
+product_id = "Mac14,7"
+product_name = "MacBook Pro (M2, 2022)"
+[chip_ids.33042.capabilities]
+address_sizes = [64]
+hypervisor = true
+pointer_authentication = true
+[chip_ids.33042.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.33056]
+description = "A16"
+name = "t8120"
+[chip_ids.33056.boards.12]
+board_name = "D73AP"
+product_id = "iPhone15,2"
+product_name = "iPhone 14 Pro"
+[chip_ids.33056.boards.14]
+board_name = "D74AP"
+product_id = "iPhone15,3"
+product_name = "iPhone 14 Pro Max"
+[chip_ids.33056.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.33537]
+description = "S6 / S7"
+name = "t8301"
+[chip_ids.33537.boards.8]
+board_name = "N157sAP"
+product_id = "Watch6,1"
+product_name = "Apple Watch Series 6 (40mm)"
+[chip_ids.33537.boards.10]
+board_name = "N157bAP"
+product_id = "Watch6,2"
+product_name = "Apple Watch Series 6 (44mm)"
+[chip_ids.33537.boards.12]
+board_name = "N158sAP"
+product_id = "Watch6,3"
+product_name = "Apple Watch Series 6 (40mm Cellular)"
+[chip_ids.33537.boards.14]
+board_name = "N158bAP"
+product_id = "Watch6,4"
+product_name = "Apple Watch Series 6 (44mm Cellular)"
+[chip_ids.33537.boards.16]
+board_name = "N187sAP"
+product_id = "Watch6,6"
+product_name = "Apple Watch Series 7 (41mm)"
+[chip_ids.33537.boards.18]
+board_name = "N187bAP"
+product_id = "Watch6,7"
+product_name = "Apple Watch Series 7 (45mm)"
+[chip_ids.33537.boards.20]
+board_name = "N188sAP"
+product_id = "Watch6,8"
+product_name = "Apple Watch Series 7 (41mm Cellular)"
+[chip_ids.33537.boards.22]
+board_name = "N188bAP"
+product_id = "Watch6,9"
+product_name = "Apple Watch Series 7 (45mm Cellular)"
+[chip_ids.33537.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.34592]
+name = "s5L8720"
+[chip_ids.34592.boards.0]
+board_name = "N72AP"
+product_id = "iPod2,1"
+product_name = "iPod Touch (2nd gen)"
+[chip_ids.34592.revisions.0]
+ap_rom_sha256 = "55f4d8ea2791ba51dd89934168f38f0fb21ce8762ff614c1e742407c0d3ca054"
+ap_rom_url = "http://securerom.fun/resources/APROM/SecureROM%20for%20s5l8720xsi,%20iBoot-240.4"
+security_epoch = 0
+version = "iBoot-240.4"
+[chip_ids.34592.revisions.1]
+ap_rom_sha256 = "cddedc17eb815cd94276469407e450a923db125b367cacd5139a12efdfcf2143"
+ap_rom_url = "https://securerom.fun/resources/APROM/SecureROM%20for%20s5l8720xsi,%20iBoot-240.5.1"
+security_epoch = 0
+version = "iBoot-240.5.1"
+[chip_ids.35072]
+name = "s5L8900"
+[chip_ids.35072.boards.0]
+board_name = "M68AP"
+product_id = "iPhone1,1"
+product_name = "iPhone 2G"
+[chip_ids.35072.boards.2]
+board_name = "M45AP"
+product_id = "iPod1,1"
+product_name = "iPod Touch (1st gen)"
+[[chip_ids.35072.securerom]]
+hash = "220027d6f8ea24603f8c5ad5e920ab553d85a9cd809d79c7e6f6f0eefdc2bc95"
+url = "http://securerom.fun/resources/APROM/ROM%20BOOT,%20S5L8900%20Rev.2"
+version = "Rev.2"
+[chip_ids.35104]
+name = "s5l8920xsi"
+[chip_ids.35104.boards.0]
+board_name = "N88AP"
+product_id = "iPhone2,1"
+product_name = "iPhone 3Gs"
+[chip_ids.35104.boards.4]
+board_name = "N82AP"
+product_id = "iPhone1,2"
+product_name = "iPhone 3G"
+[chip_ids.35104.revisions.unknown_0]
+ap_rom_sha256 = "99fd16f919a506c7f0701620e132e18c0e6f4025a57a85807960ca092e5e3587"
+ap_rom_url = "http://securerom.fun/resources/APROM/SecureROM%20for%20s5l8920xsi,%20iBoot-359.3"
+version = "iBoot-359.3"
+[chip_ids.35104.revisions.unknown_1]
+ap_rom_sha256 = "0e6feb1144c95b1ee088ecd6c45bfdc2ed17191167555b6ca513d6572e463c86"
+ap_rom_url = "http://securerom.fun/resources/APROM/SecureROM%20for%20s5l8920xsi,%20iBoot-359.3.2"
+security_epoch = "iBoot-359.3.2"
+version = "iBoot-359.3"
+[chip_ids.35106]
+name = "s5l8922xsi"
+[chip_ids.35106.boards.2]
+board_name = "N18AP"
+product_id = "iPod3,1"
+product_name = "iPod Touch (3rd gen)"
+[chip_ids.35106.revisions.unknown]
+ap_rom_sha256 = "07b8a615f00961c5802451b5717c344db287b68c5f6d2331ac6ba7a6acdbac9d"
+ap_rom_url = "https://securerom.fun/resources/APROM/SecureROM%20for%20s5l8922xsi,%20iBoot-359.5"
+version = "iBoot-359.5"
+[chip_ids.35120]
+description = "A4"
+name = "s8930"
+[chip_ids.35120.boards.0]
+board_name = "N90AP"
+product_id = "iPhone3,1"
+product_name = "iPhone 4 (GSM)"
+[chip_ids.35120.boards.2]
+board_name = "K48AP"
+product_id = "iPad1,1"
+product_name = "iPad"
+[chip_ids.35120.boards.4]
+board_name = "N90BAP"
+product_id = "iPhone3,2"
+product_name = "iPhone 4 (GSM) R2 2012"
+[chip_ids.35120.boards.6]
+board_name = "N92AP"
+product_id = "iPhone3,3"
+product_name = "iPhone 4 (CDMA)"
+[chip_ids.35120.boards.8]
+board_name = "N81AP"
+product_id = "iPod4,1"
+product_name = "iPod Touch (4th gen)"
+[chip_ids.35120.boards.16]
+board_name = "K66AP"
+product_id = "AppleTV2,1"
+product_name = "Apple TV 2"
+[[chip_ids.35120.securerom]]
+hash = "4f34652a238a57ae0018b6e66c20a240cdbee8b4cca59a99407d09f83ea8082d"
+url = "https://securerom.fun/resources/APROM/SecureROM%20for%20s5l8930xsi,%20iBoot-574.4"
+version = "iBoot-574.4"
+[chip_ids.35136]
+description = "A5"
+name = "s5l8940xsi"
+[chip_ids.35136.boards.2]
+board_name = "K95AP"
+product_id = "iPad2,3"
+product_name = "iPad 2 (CDMA)"
+[chip_ids.35136.boards.4]
+board_name = "K93AP"
+product_id = "iPad2,1"
+product_name = "iPad 2 (WiFi)"
+[chip_ids.35136.boards.6]
+board_name = "K94AP"
+product_id = "iPad2,2"
+product_name = "iPad 2 (GSM)"
+[chip_ids.35136.boards.8]
+board_name = "N94AP"
+product_id = "iPhone4,1"
+product_name = "iPhone 4s"
+[[chip_ids.35136.securerom]]
+hash = "b4ac75591fb4240c6978251bec1ce6f1162344612a5691193f35baefa826af95"
+url = "http://securerom.fun/resources/APROM/SecureROM%20for%20s5l8940xsi,%20iBoot-838.3"
+version = "iBoot-838.3"
+[chip_ids.35138]
+name = "S5L8942"
+[chip_ids.35138.boards.0]
+board_name = "N78AP"
+product_id = "iPod5,1"
+product_name = "iPod Touch (5th gen)"
+[chip_ids.35138.boards.6]
+board_name = "K93aAP"
+product_id = "iPad2,4"
+product_name = "iPad 2 (WiFi) R2 2012"
+[chip_ids.35138.boards.8]
+board_name = "J33AP"
+product_id = "AppleTV3,1"
+product_name = "Apple TV 3"
+[chip_ids.35138.boards.10]
+board_name = "P105AP"
+product_id = "iPad2,5"
+product_name = "iPad mini (WiFi)"
+[chip_ids.35138.boards.12]
+board_name = "P106AP"
+product_id = "iPad2,6"
+product_name = "iPad mini (GSM)"
+[chip_ids.35138.boards.14]
+board_name = "P107AP"
+product_id = "iPad2,7"
+product_name = "iPad mini (Global)"
+[chip_ids.35141]
+name = "s5l8945xsi"
+[chip_ids.35141.boards.0]
+board_name = "J1AP"
+product_id = "iPad3,1"
+product_name = "iPad (3rd gen, WiFi)"
+[chip_ids.35141.boards.2]
+board_name = "J2AP"
+product_id = "iPad3,2"
+product_name = "iPad (3rd gen, CDMA)"
+[chip_ids.35141.boards.4]
+board_name = "J2aAP"
+product_id = "iPad3,3"
+product_name = "iPad (3rd gen, GSM)"
+[[chip_ids.35141.securerom]]
+hash = "0a74f025a62a55a2beb201f582d104eeecc3e6b069d5a3d2636ccacad25675f7"
+url = "http://securerom.fun/resources/APROM/SecureROM%20for%20s5l8945xsi,%20iBoot-1062.2"
+version = "iBoot-1062.2"
+[chip_ids.35143]
+
+[chip_ids.35143.boards.0]
+board_name = "J33IAP"
+product_id = "AppleTV3,2"
+product_name = "Apple TV 3 (2013)"
+[chip_ids.35152]
+description = "A6"
+name = "s8950"
+[chip_ids.35152.boards.0]
+board_name = "N41AP"
+product_id = "iPhone5,1"
+product_name = "iPhone 5 (GSM)"
+[chip_ids.35152.boards.2]
+board_name = "N42AP"
+product_id = "iPhone5,2"
+product_name = "iPhone 5 (Global)"
+[chip_ids.35152.boards.10]
+board_name = "N48AP"
+product_id = "iPhone5,3"
+product_name = "iPhone 5c (GSM)"
+[chip_ids.35152.boards.14]
+board_name = "N49AP"
+product_id = "iPhone5,4"
+product_name = "iPhone 5c (Global)"
+[chip_ids.35152.revisions.1]
+ap_rom_url = "http://securerom.fun/resources/APROM/SecureROM%20for%20s5l8950xsi,%20iBoot-1145.3"
+security_epoch = 1
+sha256 = "59b9e3782af4be3aead0ed8196b5bd1f0457a904756df52628f7c6e2532b5405"
+version = "iBoot-1458.2"
+[chip_ids.35157]
+name = "s5l8950xsi"
+[chip_ids.35157.boards.0]
+board_name = "P101AP"
+product_id = "iPad3,4"
+product_name = "iPad (4th gen, WiFi)"
+[chip_ids.35157.boards.2]
+board_name = "P102AP"
+product_id = "iPad3,5"
+product_name = "iPad (4th gen, GSM)"
+[chip_ids.35157.boards.4]
+board_name = "P103AP"
+product_id = "iPad3,6"
+product_name = "iPad (4th gen, Global)"
+[chip_ids.35157.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[chip_ids.35168]
+description = "A7"
+name = "s8960"
+[chip_ids.35168.boards.0]
+board_name = "N51AP"
+product_id = "iPhone6,1"
+product_name = "iPhone 5s (GSM)"
+[chip_ids.35168.boards.2]
+board_name = "N53AP"
+product_id = "iPhone6,2"
+product_name = "iPhone 5s (Global)"
+[chip_ids.35168.boards.10]
+board_name = "J85AP"
+product_id = "iPad4,4"
+product_name = "iPad mini 2 (WiFi)"
+[chip_ids.35168.boards.12]
+board_name = "J86AP"
+product_id = "iPad4,5"
+product_name = "iPad mini 2 (Cellular)"
+[chip_ids.35168.boards.14]
+board_name = "J87AP"
+product_id = "iPad4,6"
+product_name = "iPad mini 2 (China)"
+[chip_ids.35168.boards.16]
+board_name = "J71AP"
+product_id = "iPad4,1"
+product_name = "iPad Air (WiFi)"
+[chip_ids.35168.boards.18]
+board_name = "J72AP"
+product_id = "iPad4,2"
+product_name = "iPad Air (Cellular)"
+[chip_ids.35168.boards.20]
+board_name = "J73AP"
+product_id = "iPad4,3"
+product_name = "iPad Air (China)"
+[chip_ids.35168.boards.50]
+board_name = "J85mAP"
+product_id = "iPad4,7"
+product_name = "iPad mini 3 (WiFi)"
+[chip_ids.35168.boards.52]
+board_name = "J86mAP"
+product_id = "iPad4,8"
+product_name = "iPad mini 3 (Cellular)"
+[chip_ids.35168.boards.54]
+board_name = "J87mAP"
+product_id = "iPad4,9"
+product_name = "iPad mini 3 (China)"
+[chip_ids.35168.revisions.1]
+security_epoch = 1
+version = "iBoot-"
+[metadata]
+description = "attributes about various Apple SoCs and Boards"
+[[templates]]
+dfu_image_base = 6442450944
+dfu_load_base = 34359738368
+recovery_image_base = 6442450944
+recovery_load_base = 34359738368
+[[templates]]
+dfu_image_base = 872415232
+dfu_load_base = 2683305984
+recovery_image_base = 2683305984
+recovery_load_base = 2147483648
+[[templates]]
+dfu_image_base = 268435456
+dfu_load_base = 3220176896
+recovery_image_base = 3220176896
+recovery_load_base = 2147483648
+[[templates]]
+dfu_image_base = 1216446464
+dfu_load_base = 2147483648
+recovery_image_base = 1216446464
+recovery_load_base = 2147483648
+[[templates]]
+dfu_image_base = 6443171840
+dfu_load_base = 34359738368
+recovery_image_base = 6443171840
+recovery_load_base = 34359738368
+[[templates]]
+dfu_image_base = 6442565632
+dfu_load_base = 34359738368
+heap_base = 6444449792
+heap_offset = 20480
+page_offset = 1024
+recovery_image_base = 6442565632
+recovery_load_base = 34359738368
+trampoline_base = 6442549248
+trampoline_offset = 1568
+[[templates]]
+dfu_image_base = 6446120960
+dfu_load_base = 6442450944
+recovery_image_base = 35391500288
+recovery_load_base = 34359738368
+trampoline_base = 6443237376

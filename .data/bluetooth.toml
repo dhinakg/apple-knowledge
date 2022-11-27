@@ -1,0 +1,76 @@
+
+[constants]
+apple_id = 19456
+[[low_energy]]
+description = "iBeacon Advertisement Data"
+subtype = 2
+[uuids]
+
+[uuids.0x110A]
+descritpion = "A2DP source (sender)"
+[uuids.0x110B]
+description = "A2DP sink (receiver)"
+[uuids.0x1800]
+description = "Generic Access Profile"
+[uuids.0x1801]
+description = "Generic Attribute Profile"
+[uuids.0x1804]
+description = "Tx Power"
+[uuids.0x1805]
+description = "Current Time"
+[uuids.0x180A]
+description = "Device Information"
+[uuids.0x180F]
+description = "Battery"
+[uuids.0xFD43]
+description = "Apple (Unknown)"
+[uuids.0xFD44]
+description = "Apple (Unknown)"
+[uuids.0xFD6F]
+description = "Exposure Notifications Service"
+[uuids.0xFE13]
+description = "Apple (Unknown)"
+[uuids.0xFE25]
+description = "Apple (Unknown)"
+[uuids.0xFE8A]
+description = "Apple (Unknown)"
+[uuids.0xFE8B]
+description = "Apple (Unknown)"
+[uuids.0xFEC7]
+description = "Apple (Unknown)"
+[uuids.0xFEC8]
+description = "Apple (Unknown)"
+[uuids.0xFEC9]
+description = "Apple (Unknown)"
+[uuids.0xFECA]
+description = "Apple (Unknown)"
+[uuids.0xFECB]
+description = "Apple (Unknown)"
+[uuids.0xFECC]
+description = "Apple (Unknown)"
+[uuids.0xFECD]
+description = "Apple (Unknown)"
+[uuids.0xFECE]
+description = "Apple (Unknown)"
+[uuids.0xFECF]
+description = "Apple (Unknown)"
+[uuids.0xFED0]
+description = "Apple (Unknown)"
+[uuids.0xFED1]
+description = "Apple (Unknown)"
+[uuids.0xFED2]
+description = "Apple (Unknown)"
+[uuids.0xFED3]
+description = "Apple (Unknown)"
+[uuids.0xFED4]
+description = "Apple (Unknown)"
+[uuids.7905F431-B5CE-4E99-A40F-4B1E122D00D0]
+description = "Apple Notification Service (Voice & SMS)"
+[uuids.89D3502B-0F36-433A-8EF4-C502AD55F8DC]
+description = "Apple Media Service"
+[uuids.9BD708D7-64C7-4E9F-9DED-F6B6C4551967]
+description = "AirPods Specific"
+[uuids.9FA480E0-4967-4542-9390-D343DC5D04AE]
+description = "Apple Nearby Service"
+[uuids.D0611E78-BBB4-4591-A5F8-487910AE4366]
+description = "Continuity"
