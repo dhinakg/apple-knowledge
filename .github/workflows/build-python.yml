@@ -60,3 +60,10 @@ jobs:
 
       - name: Build package
         run: poetry build
+
+      - name: Archive Python Package Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: package-python-${{ matrix.node-version }}
+          path: _packages/python/dist/
+  
