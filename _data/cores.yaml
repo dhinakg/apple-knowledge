@@ -1670,11 +1670,11 @@ chip_ids:
     boards:
       0x04:
         product_name: iPhone 15 Pro
-        product_id: iPhone15,2
+        product_id: iPhone16,1
         board_name: D83AP
       0x06:
         product_name: iPhone 15 Pro Max
-        product_id: iPhone15,3
+        product_id: iPhone16,2
         board_name: D84AP
 
   0x8301:
