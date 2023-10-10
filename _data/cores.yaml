@@ -1014,6 +1014,10 @@ chip_ids:
         product_name: Apple T2 MacBookAir9,1 (j230k)
         product_id: iBridge2,15
         board_name: J230KAP
+      0xF0:
+        product_name: X86 Legacy Virtual Coprocessor
+        product_id: VMM-x86_64
+        board_name: X86LEGACYAP
 
 
 
