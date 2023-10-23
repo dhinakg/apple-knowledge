@@ -619,6 +619,10 @@ chip_ids:
         product_name: Apple Watch Series 2 (42mm)
         product_id: Watch2,4
         board_name: N75AP
+      0x12:
+        product_name: Apple T1
+        product_id: iBridge1,1
+        board_name: X619AP
 
 
 
