@@ -45,12 +45,9 @@ templates:
     recovery_load_base: 0x800000000
     trampoline_base: 0x00000001800c0000
 
-
 bootrom_exploits:
   - alloc8
   - checkm8
-
-
 
 chip_ids:
   0x6000:
@@ -114,7 +111,7 @@ chip_ids:
 
     capabilities:
       address_sizes:
-      - 64
+        - 64
 
       pointer_authentication: true
       hypervisor: true
@@ -191,7 +188,6 @@ chip_ids:
         product_id: Mac13,2
         board_name: J375dAP
 
-
   0x6020:
     name: t6020
     description: M2 Pro
@@ -232,7 +228,6 @@ chip_ids:
         product_name: MacBook Pro (M2 Pro, 16-inch, 2023)
         product_id: Mac14,10
         board_name: J416sAP
-
 
   0x6021:
     name: t6021
@@ -275,8 +270,6 @@ chip_ids:
         product_id: Mac14,13
         board_name: J475cAP
 
-
-
   0x6022:
     name: t6022
     description: M2 Ultra
@@ -313,9 +306,6 @@ chip_ids:
         product_name: Mac Studio (M2 Ultra, 2023)
         product_id: Mac14,14
         board_name: J475dAP
-
-
-
 
   0x7000:
     name: t7000
@@ -390,8 +380,6 @@ chip_ids:
         product_name: HomePod (1st gen)
         product_id: AudioAccessory1,1
         board_name: B238aAP
-
-
 
   0x7001:
     name: t7001
@@ -476,8 +464,6 @@ chip_ids:
         product_name: Apple Watch 42mm (1st gen)
         product_id: Watch1,2
         board_name: N28aAP
-
-
 
   0x8000:
     name: s8000
@@ -573,8 +559,6 @@ chip_ids:
         product_id: iPad6,8
         board_name: J99aAP
 
-
-
   0x8002:
     name: t8002
     description: S2 / T1
@@ -623,8 +607,6 @@ chip_ids:
         product_name: Apple T1
         product_id: iBridge1,1
         board_name: X619AP
-
-
 
   0x8003:
     name: s8003
@@ -675,8 +657,6 @@ chip_ids:
         product_id: iPad6,12
         board_name: J72tAP
 
-
-
   0x8004:
     name: t8004
     description: S3
@@ -721,8 +701,6 @@ chip_ids:
         product_name: Apple Watch Series 3 (42mm Cellular)
         product_id: Watch3,2
         board_name: N111bAP
-
-
 
   0x8006:
     name: t8006
@@ -804,8 +782,6 @@ chip_ids:
         product_name: Apple Watch SE (44mm Cellular)
         product_id: Watch5,12
         board_name: N142bAP
-
-
 
   0x8010:
     name: t8010
@@ -921,8 +897,6 @@ chip_ids:
         product_id: iPad7,2
         board_name: J121AP
 
-
-
   0x8012:
     name: t8012
     description: T2
@@ -1023,8 +997,6 @@ chip_ids:
         product_id: VMM-x86_64
         board_name: X86LEGACYAP
 
-
-
   0x8015:
     name: t8015
     description: A11
@@ -1077,8 +1049,6 @@ chip_ids:
         product_name: iPhone X (GSM)
         product_id: iPhone10,6
         board_name: D221AP
-
-
 
   0x8020:
     name: t8020
@@ -1152,8 +1122,6 @@ chip_ids:
         product_name: iPad (8th gen, Cellular)
         product_id: iPad11,7
         board_name: J172aAP
-
-
 
   0x8027:
     name: t8027
@@ -1236,8 +1204,6 @@ chip_ids:
         product_id: ADP3,2
         board_name: J273aAP
 
-
-
   0x8030:
     name: t8030
     description: A13
@@ -1246,7 +1212,6 @@ chip_ids:
       pointer_authentication: true
       address_sizes:
         - 64
-
 
     revisions:
       0x01:
@@ -1299,7 +1264,6 @@ chip_ids:
         product_name: Apple Studio Display
         product_id: AppleDisplay2,1
         board_name: J327AP
-
 
   0x8101:
     name: t8101
@@ -1462,8 +1426,6 @@ chip_ids:
         product_name: iMac 24-inch (M1, Four Ports, 2021)
         product_id: iMac21,2
         board_name: J457AP
-
-
 
   0x8110:
     name: t8110
@@ -1786,7 +1748,6 @@ chip_ids:
         product_id: Watch6,17
         board_name: N198bAP
 
-
   0x8310:
     name: t8310
     description: S9
@@ -1932,8 +1893,6 @@ chip_ids:
         product_id: iPhone2,1
         board_name: N88AP
 
-
-
   0x8922:
     name: s5l8922xsi
     architecture:
@@ -1965,8 +1924,6 @@ chip_ids:
         product_name: iPod Touch (3rd gen)
         product_id: iPod3,1
         board_name: N18AP
-
-
 
   0x8930:
     name: s5l8930xsi
@@ -2078,8 +2035,6 @@ chip_ids:
         product_id: iPad3,3
         board_name: J2aAP
 
-
-
   0x8947:
     name:
     description:
@@ -2088,8 +2043,6 @@ chip_ids:
         product_name: Apple TV 3 (2013)
         product_id: AppleTV3,2
         board_name: J33IAP
-
-
 
   0x8950:
     name: s8950
@@ -2137,8 +2090,6 @@ chip_ids:
         product_id: iPhone5,4
         board_name: N49AP
 
-
-
   0x8955:
     name: s5l8950xsi
     description:
@@ -2176,8 +2127,6 @@ chip_ids:
         product_name: iPad (4th gen, Global)
         product_id: iPad3,6
         board_name: P103AP
-
-
 
   0x8960:
     name: s8960
@@ -2251,8 +2200,6 @@ chip_ids:
         product_name: iPad mini 3 (China)
         product_id: iPad4,9
         board_name: J87mAP
-
-
 
   0xFE00:
     name: VMApple2
