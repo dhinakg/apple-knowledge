@@ -1835,6 +1835,36 @@ chip_ids:
         product_id: iPod2,1
         board_name: N72AP
 
+  0x8747:
+    name: s5L8747
+    description:
+    architecture:
+
+    securerom:
+      nonce:
+        ap_length:
+        sep_length:
+      demotion_reg:
+      memory_layout:
+        rom:
+        sram:
+        dram:
+        dfu_image:
+        dfu_load:
+        recovery_image:
+        recovery_load:
+        trampoline:
+
+    boards:
+      0x00:
+        product_name: Lightning Digital AV Adapter
+        product_id: iAccy1,1
+        board_name: B137AP
+      0x02:
+        product_name: Lightning VGA Adapter
+        product_id: iAccy1,2
+        board_name: B165AP
+
   0x8900:
     name: s5L8900
     securerom:
