@@ -19,6 +19,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Cache Node Packages
         id: cache-node
@@ -29,7 +31,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: yarn
           cache-dependency-path: _packages/node/yarn.lock
           registry-url: https://registry.npmjs.org/
@@ -37,10 +39,10 @@ jobs:
       - name: Download Node Package Artifacts
         uses: actions/download-artifact@v3
         with:
-          name: package-node-18
-          path: dist
+          name: package-node-20
+          path:  _packages/node/dist/
 
       - name: Publish to NPM Registry
-        run: yarn publish dist/
+        run: yarn publish  _packages/node/
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

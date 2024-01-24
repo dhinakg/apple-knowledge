@@ -75,7 +75,7 @@ namespace :data do
         file_path = File.join(TMP_DIR, 'ipsw', 'build_manifests')
         FileUtils.mkdir_p file_path unless File.directory? file_path
 
-        collection.each do |key, _value|
+        collection.each_key do |key|
           output_file = File.join(file_path, "#{key}.plist")
           next if File.exist? output_file
 
@@ -109,7 +109,7 @@ namespace :data do
       file_path = File.join(TMP_DIR, 'ipsw', 'device_trees')
       FileUtils.mkdir_p file_path unless File.directory? file_path
 
-      collection.each do |key, _value|
+      collection.each_key do |key|
         full_path = File.join(args[:dir], key)
         next unless File.exist? full_path
 
@@ -152,7 +152,7 @@ namespace :data do
         FileUtils.mkdir_p File.join(TMP_DIR, 'ipsw', 'urls')
         batch_size = args[:batch_size].to_i
         puts "Writing to download files with batch size of #{batch_size}"
-        urls.flatten.compact.each_slice(batch_size).each_with_index do |url_list, index|
+        urls.flatten.compact.each_slice(batch_size).with_index do |url_list, index|
           file_path = File.join(TMP_DIR, 'ipsw', 'urls', "batch_#{index}.txt")
           puts "Writing group #{index} to #{file_path}"
           File.open(file_path, 'w') do |file|
@@ -179,7 +179,7 @@ namespace :data do
       data_file = DataFile.new 'ipsw'
       collection = data_file.collection :ipsw_files
 
-      collection.each do |_, entry|
+      collection.each_value do |entry|
         entry.delete 'description'
 
         if entry['urls']&.any? { |url| url.is_a?(String) }
@@ -225,7 +225,7 @@ namespace :data do
       data_file = DataFile.new 'ipsw'
       collection = data_file.collection :ipsw_files
 
-      collection.each do |key, _value|
+      collection.each_key do |key|
         full_path = File.join(args[:dir], key)
         unless File.exist? full_path
           puts "Missing IPSW: #{key}"

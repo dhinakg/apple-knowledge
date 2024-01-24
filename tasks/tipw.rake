@@ -21,7 +21,7 @@ namespace :tipw do
 
   desc 'update raw data pages in tmp'
   task :pages, [:force] do |_task, args|
-    TIPW::SYNC_DATAFILE.collection(:tipw_categories).each do |key, _value|
+    TIPW::SYNC_DATAFILE.collection(:tipw_categories).each_key do |key|
       collection_file_path = File.join(TMP_DIR, 'tipw', key)
       FileUtils.mkdir_p collection_file_path
 
@@ -123,7 +123,6 @@ namespace :tipw do
     ipsw_urls = urls.filter_map do |url|
       uri = URI.parse url
       uri if uri && %w[http https].include?(uri.scheme) && uri.path.ends_with?('.ipsw')
-
     rescue URI::InvalidURIError
       nil
     end
