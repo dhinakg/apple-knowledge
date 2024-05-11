@@ -418,6 +418,24 @@ chip_ids:
         product_id: Mac15,11
         board_name: J516mAP
 
+  0x6500:
+    name: t6500
+    description: R1
+
+    revisions:
+      0x01:
+        security_epoch: 0x01
+        version: iBoot-
+        sha1:
+        sha256:
+
+    boards:
+      # TODO: Add once we have more solid information
+      # 0x01:
+      #   product_name: Apple Vision Pro (R1)
+      #   product_id: aar1,2
+      #   board_name: N301BORAAP
+
   0x7000:
     name: t7000
     description: A8
@@ -1675,6 +1693,11 @@ chip_ids:
         product_name: MacBook Air (M2, 2023)
         product_id: Mac14,15
         board_name: J415AP
+      0x42:
+        product_name: Apple Vision Pro
+        product_id: RealityDevice14,1
+        board_name: N301AP
+
 
   0x8120:
     name: t8120
@@ -1761,6 +1784,14 @@ chip_ids:
         product_name: iMac (24-inch, 4 ports, 2023)
         product_id: Mac15,5
         board_name: J434AP
+      0x30:
+        product_name: MacBook Air (13-inch, M3, 2024)
+        product_id: Mac15,12
+        board_name: J613AP
+      0x32:
+        product_name: MacBook Pro (15-inch, M3, 2024)
+        product_id: Mac15,13
+        board_name: J615AP
 
   0x8130:
     name: t8130
