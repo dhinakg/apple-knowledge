@@ -101,6 +101,9 @@ product_basebands:
   iPad13,7:
     baseband_certificate_id: 3095201109
     baseband_serial_length: 4
+  iPad14,11:
+    baseband_certificate_id: 495958265
+    baseband_serial_length: 4
   iPad14,2:
     baseband_certificate_id: 495958265
     baseband_serial_length: 4
@@ -109,6 +112,15 @@ product_basebands:
     baseband_serial_length: 4
   iPad14,6:
     baseband_certificate_id: 3559316616
+    baseband_serial_length: 4
+  iPad14,9:
+    baseband_certificate_id: 495958265
+    baseband_serial_length: 4
+  iPad16,4:
+    baseband_certificate_id: 3452763205
+    baseband_serial_length: 4
+  iPad16,6:
+    baseband_certificate_id: 3452763205
     baseband_serial_length: 4
   iPad2,2:
     baseband_certificate_id: 257
