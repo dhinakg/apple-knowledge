@@ -1714,7 +1714,6 @@ chip_ids:
         product_id: RealityDevice14,1
         board_name: N301AP
 
-
   0x8120:
     name: t8120
     description: A16
@@ -1891,6 +1890,51 @@ chip_ids:
         product_id: iPad16,6
         board_name: J721AP
 
+  0x8140:
+    name: t8140
+    description: A18 / A18 Pro
+    architecture:
+
+    revisions:
+      0x01:
+        security_epoch: 0x01
+        version: iBoot-
+        sha1:
+        sha256:
+
+    securerom:
+      nonce:
+        ap_length:
+        sep_length:
+      demotion_reg:
+      memory_layout:
+        rom:
+        sram:
+        dram:
+        dfu_image:
+        dfu_load:
+        recovery_image:
+        recovery_load:
+        trampoline:
+
+    boards:
+      0x08:
+        product_name: iPhone 16
+        product_id: iPhone17,3
+        board_name: D47AP
+      0x0A:
+        product_name: iPhone 16 Plus
+        product_id: iPhone17,4
+        board_name: D48AP
+      0x0C:
+        product_name: iPhone 16 Pro
+        product_id: iPhone17,1
+        board_name: D93AP
+      0x0E:
+        product_name: iPhone 16 Pro Max
+        product_id: iPhone17,2
+        board_name: D94AP
+
   0x8301:
     name: t8301
     description: S6 / S7 / S8
@@ -1994,7 +2038,7 @@ chip_ids:
 
   0x8310:
     name: t8310
-    description: S9
+    description: S9 / S10
     architecture:
 
     revisions:
@@ -2040,6 +2084,22 @@ chip_ids:
         product_name: Apple Watch Series 9 (45mm Cellular)
         product_id: Watch7,4
         board_name: N208bAP
+      0x10:
+        product_name: Apple Watch Series 10 (GPS) [42mm]
+        product_id: Watch7,8
+        board_name: N217sAP
+      0x12:
+        product_name: Apple Watch Series 10 (GPS) [46mm]
+        product_id: Watch7,9
+        board_name: N217bAP
+      0x14:
+        product_name: Apple Watch Series 10 (GPS + Cellular) [42mm]
+        product_id: Watch7,10
+        board_name: N218sAP
+      0x16:
+        product_name: Apple Watch Series 10 (GPS + Cellular) [46mm]
+        product_id: Watch7,11
+        board_name: N218bAP
 
   0x8720:
     name: s5L8720
