@@ -122,6 +122,9 @@ product_basebands:
   iPad14,9:
     baseband_certificate_id: 495958265
     baseband_serial_length: 4
+  iPad16,2:
+    baseband_certificate_id: 3452763205
+    baseband_serial_length: 4
   iPad16,4:
     baseband_certificate_id: 3452763205
     baseband_serial_length: 4
