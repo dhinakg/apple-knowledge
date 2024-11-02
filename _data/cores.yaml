@@ -1930,7 +1930,7 @@ chip_ids:
         product_name: iPad mini (A17 Pro, WiFi)
         product_id: iPad16,1
         board_name: J410AP
-      0x10:
+      0x0A:
         product_name: iPad mini (A17 Pro, Cellular)
         product_id: iPad16,2
         board_name: J411AP
