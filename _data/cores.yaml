@@ -422,6 +422,84 @@ chip_ids:
         product_id: Mac15,11
         board_name: J516mAP
 
+  0x6040:
+    name: t6040
+    description: M4 Pro
+    architecture: armv8.4
+
+    revisions:
+      0x01:
+        security_epoch: 0x01
+        version: iBoot-
+        sha1:
+        sha256:
+
+    securerom:
+      nonce:
+        ap_length:
+        sep_length:
+      demotion_reg:
+      memory_layout:
+        rom:
+        sram:
+        dram:
+        dfu_image:
+        dfu_load:
+        recovery_image:
+        recovery_load:
+        trampoline:
+
+    boards:
+      0x2:
+        product_name: Mac mini (2024) [M4 Pro]
+        product_id: Mac16,11
+        board_name: J773sAP
+      0x4:
+        product_name: MacBook Pro (14-inch, Nov 2024) [M4 Pro]
+        product_id: Mac16,8
+        board_name: J614sAP
+      0x6:
+        product_name: MacBook Pro (16-inch, Nov 2024) [M4 Pro]
+        product_id: Mac16,7
+        board_name: J616sAP
+
+  0x6041:
+    name: t6041
+    description: M4 Max
+    architecture: armv8.4
+
+    revisions:
+      0x01:
+        security_epoch: 0x01
+        version: iBoot-
+        sha1:
+        sha256:
+
+    securerom:
+      nonce:
+        ap_length:
+        sep_length:
+      demotion_reg:
+      memory_layout:
+        rom:
+        sram:
+        dram:
+        dfu_image:
+        dfu_load:
+        recovery_image:
+        recovery_load:
+        trampoline:
+
+    boards:
+      0x4:
+        product_name: MacBook Pro (14-inch, Nov 2024) [M4 Max]
+        product_id: Mac16,6
+        board_name: J614cAP
+      0x6:
+        product_name: MacBook Pro (16-inch, Nov 2024) [M4 Max]
+        product_id: Mac16,5
+        board_name: J616cAP
+      
   0x6500:
     name: t6500
     description: R1
@@ -1901,6 +1979,22 @@ chip_ids:
         product_name: iPad Pro 13-inch (M4, Cellular)
         product_id: iPad16,6
         board_name: J721AP
+      0x22:
+        product_name: MacBook Pro (14-inch, Nov 2024) [M4]
+        product_id: Mac16,1
+        board_name: J604AP
+      0x24:
+        product_name: iMac (24-inch, 2024) [Two ports]
+        product_id: Mac16,2
+        board_name: J623AP
+      0x26:
+        product_name: iMac (24-inch, 2024) [Four ports]
+        product_id: Mac16,3
+        board_name: J624AP
+      0x2A:
+        product_name: Mac mini (2024) [M4]
+        product_id: Mac16,10
+        board_name: J773gAP
 
   0x8140:
     name: t8140
