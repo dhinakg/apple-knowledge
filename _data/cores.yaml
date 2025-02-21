@@ -2024,6 +2024,10 @@ chip_ids:
         trampoline:
 
     boards:
+      0x04:
+        product_name: iPhone 16e
+        product_id: iPhone17,5
+        board_name: V59AP
       0x08:
         product_name: iPhone 16
         product_id: iPhone17,3
