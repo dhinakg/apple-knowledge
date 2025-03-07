@@ -1995,6 +1995,14 @@ chip_ids:
         product_name: Mac mini (2024) [M4]
         product_id: Mac16,10
         board_name: J773gAP
+      0x2C:
+        product_name: MacBook Air (13-inch, M4, 2025)
+        product_id: Mac16,12
+        board_name: J713AP
+      0x2E:
+        product_name: MacBook Air (15-inch, M4, 2025)
+        product_id: Mac16,13
+        board_name: J715AP
 
   0x8140:
     name: t8140
