@@ -536,7 +536,7 @@ chip_ids:
         product_name: MacBook Pro (16-inch, Nov 2024) [M4 Max]
         product_id: Mac16,5
         board_name: J616cAP
-      
+
   0x6500:
     name: t6500
     description: R1
@@ -2114,6 +2114,51 @@ chip_ids:
         product_id: iPhone17,2
         board_name: D94AP
 
+  0x8150:
+    name: t8150
+    description: A19 / A19 Pro
+    architecture:
+
+    revisions:
+      0x01:
+        security_epoch: 0x01
+        version: iBoot-
+        sha1:
+        sha256:
+
+    securerom:
+      nonce:
+        ap_length:
+        sep_length:
+      demotion_reg:
+      memory_layout:
+        rom:
+        sram:
+        dram:
+        dfu_image:
+        dfu_load:
+        recovery_image:
+        recovery_load:
+        trampoline:
+
+    boards:
+      0x08:
+        product_name: iPhone 17
+        product_id: iPhone18,3
+        board_name: V57AP
+      0x0A:
+        product_name: iPhone Air
+        product_id: iPhone18,4
+        board_name: D23AP
+      0x0C:
+        product_name: iPhone 17 Pro
+        product_id: iPhone18,1
+        board_name: V53AP
+      0x0E:
+        product_name: iPhone 17 Pro Max
+        product_id: iPhone18,2
+        board_name: V54AP
+
   0x8301:
     name: t8301
     description: S6 / S7 / S8
@@ -2279,6 +2324,42 @@ chip_ids:
         product_name: Apple Watch Series 10 (GPS + Cellular) [46mm]
         product_id: Watch7,11
         board_name: N218bAP
+      0x18:
+        product_name: Apple Watch Series 11 (GPS) [42mm]
+        product_id: Watch7,17
+        board_name: N227sAP
+      0x1a:
+        product_name: Apple Watch Series 11 (GPS) [46mm]
+        product_id: Watch7,18
+        board_name: N227bAP
+      0x1c:
+        product_name: Apple Watch Series 11 (GPS + Cellular) [42mm]
+        product_id: Watch7,19
+        board_name: N228sAP
+      0x1e:
+        product_name: Apple Watch Series 11 (GPS + Cellular) [46mm]
+        product_id: Watch7,20
+        board_name: N228bAP
+      0x22:
+        product_name: Apple Watch Ultra 3
+        product_id: Watch7,12
+        board_name: N230AP
+      0x28:
+        product_name: Apple Watch SE 3 (GPS) [40mm]
+        product_id: Watch7,13
+        board_name: N243sAP
+      0x2a:
+        product_name: Apple Watch SE 3 (GPS) [44mm]
+        product_id: Watch7,14
+        board_name: N243bAP
+      0x2c:
+        product_name: Apple Watch SE 3 (GPS + Cellular) [40mm]
+        product_id: Watch7,15
+        board_name: N244sAP
+      0x2e:
+        product_name: Apple Watch SE 3 (GPS + Cellular) [44mm]
+        product_id: Watch7,16
+        board_name: N244bAP
 
   0x8720:
     name: s5L8720
